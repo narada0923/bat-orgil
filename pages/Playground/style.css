@@ -1,0 +1,103 @@
+.playground-hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playground-hero-content h1 {
+  color: #111111;
+  font-size: 8rem;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+.playground-hero-content p {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  margin-top: 30rem;
+}
+.playground-hero-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.playground-hero-list .playground-hero-list-content {
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+  border-bottom: 1px solid #999;
+  padding-bottom: 3rem;
+}
+.playground-hero-list-content-items h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111111;
+}
+.playground-hero-list-content-items p {
+  color: #999;
+}
+@media (max-width: 1245px) {
+  .playground-hero-content {
+    display: flex;
+    margin-top: -5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .playground-hero-content h1 {
+    font-size: 6rem;
+  }
+  .playground-hero-content p {
+    font-size: 1.6rem;
+
+    margin-top: 20rem;
+  }
+}
+@media (max-width: 1000px) {
+  .playground-hero-content {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+  .playground-hero-content h1 {
+    color: #111111;
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 0 1rem;
+  }
+  .playground-hero-content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-top: 20rem;
+  }
+  .playground-hero-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+  .playground-hero-list .playground-hero-list-content {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding: 2.5rem 0 2.5rem 0;
+  }
+  .playground-hero-list-content-items h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111111;
+  }
+  .playground-hero-list-content-items p {
+    color: #999;
+  }
+}
+@media (max-width: 768px) {
+  .playground-hero-content {
+    display: flex;
+    margin-top: -10rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

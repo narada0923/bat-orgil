@@ -1,0 +1,382 @@
+.hero-content {
+  margin-top: 10rem;
+  z-index: 10;
+  position: absolute;
+}
+.hero-content h4 {
+  color: #111111;
+  font-size: 2rem;
+}
+.hero-content h1 {
+  color: #111111;
+  font-size: 9rem;
+}
+.hero-content h2 {
+  color: #111111;
+  font-size: 9rem;
+  margin-left: 16rem;
+}
+
+.float-one {
+  width: 750px;
+  height: 750px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin-top: -120px;
+  margin-left: 500px;
+
+  animation: floatOne 3s ease-in-out infinite;
+}
+@keyframes floatOne {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 5%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.float-one a {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(66, 103, 178, 0.1);
+}
+
+.float-two {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 160px;
+  right: 100px;
+  animation: floatTwo 3s ease-in-out infinite;
+}
+@keyframes floatTwo {
+  0% {
+    bottom: 160px;
+  }
+  50% {
+    bottom: 220px;
+  }
+  100% {
+    bottom: 160px;
+  }
+}
+.float-two a {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.float-three {
+  width: 650px;
+  height: 650px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  animation: floatThree 3s ease-in-out infinite;
+}
+@keyframes floatThree {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 5%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+.float-three a {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(208, 59, 156, 0.1);
+}
+.float-one a img,
+.float-two a img,
+.float-three a img {
+  width: 2rem;
+  height: 2rem;
+}
+.margin {
+  padding-top: 60rem;
+}
+.second-page-container {
+  display: flex;
+  margin-top: 8rem;
+}
+.title-box h1 {
+  font-size: 4rem;
+  color: #111111;
+  font-weight: 600;
+}
+.title-box img {
+  width: 90%;
+}
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6rem;
+}
+.content-box h2 {
+  font-size: 2rem;
+  color: #111111;
+}
+.content-box p {
+  color: #999;
+}
+.third-page-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.third-page-container h1 {
+  margin-top: 14rem;
+  font-size: 2rem;
+  width: 40%;
+  text-align: center;
+}
+.third-page-container .btn {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 4rem;
+  transition: all 0.3s ease-out;
+  font-weight: 600;
+}
+.third-page-container .btn:hover {
+  color: #fcaf64;
+  transform: rotate(-20deg);
+}
+.third-page-container .float-image {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-page-container .float-image img {
+  width: 30%;
+  margin-bottom: 8rem;
+}
+.title-box h1 span {
+  margin-left: 4rem;
+}
+.two-col {
+  display: flex;
+  justify-content: space-between;
+}
+.list-contents-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.list-contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 4rem 0;
+  border-bottom: 1px solid #999;
+}
+.list-contents h2 {
+  font-size: 2rem;
+  color: #111111;
+}
+.list-contents p {
+  color: #999;
+  font-size: 1rem;
+}
+.list-contents span {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+.list-contents:hover span {
+  background-color: #fcaf64;
+}
+.list-contents:hover span i {
+  transform: rotate(-30deg);
+}
+.list-contents span i {
+  font-size: 2rem;
+  transition: all 0.3s ease-out;
+}
+@media (max-width: 1245px) {
+  .hero-content {
+    margin-top: 10rem;
+  }
+  .hero-content h4 {
+    color: #111111;
+    font-size: 1.6rem;
+  }
+  .hero-content h1 {
+    color: #111111;
+    font-size: 5rem;
+  }
+  .hero-content h2 {
+    color: #111111;
+    font-size: 5rem;
+    margin-left: 8rem;
+  }
+}
+@media (max-width: 1000px) {
+  * {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .float-one {
+    display: none;
+  }
+
+  .float-two {
+    display: none;
+  }
+
+  .float-three {
+    display: none;
+  }
+
+  .margin {
+    padding-top: 50rem;
+  }
+  .second-page-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-box img {
+    width: 90%;
+  }
+
+  .content-box {
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+  }
+
+  .third-page-container h1 {
+    font-size: 1.6rem;
+    width: 60%;
+  }
+
+  .title-box h1 {
+    text-align: center;
+  }
+  .title-box h1 span {
+    margin-left: 4rem;
+  }
+  .two-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-contents-container {
+    width: 100%;
+  }
+}
+@media (max-width: 790px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content h4 {
+    font-size: 1.2rem;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+  }
+  .hero-content h2 {
+    font-size: 3rem;
+  }
+
+  .float-one {
+    display: none;
+  }
+
+  .float-two {
+    display: none;
+  }
+
+  .float-three {
+    display: none;
+  }
+
+  .margin {
+    padding-top: 40rem;
+  }
+  .second-page-container {
+    display: flex;
+    margin-top: 8rem;
+  }
+  .title-box h1 {
+    font-size: 2.6rem;
+  }
+
+  .content-box h2 {
+    font-size: 1.4rem;
+    color: #111111;
+  }
+
+  .third-page-container h1 {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .third-page-container .float-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-page-container .float-image img {
+    width: 100%;
+  }
+  .title-box h1 span {
+    margin-left: 2.6rem;
+  }
+}

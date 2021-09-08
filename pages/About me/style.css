@@ -1,0 +1,349 @@
+.about-hero-content {
+  margin: 0 auto 50rem auto;
+}
+
+.about-hero-title {
+  font-size: 6rem;
+  color: #111111;
+  font-weight: 600;
+  margin-top: 10rem;
+}
+.about-hero-text {
+  margin-top: 5rem;
+  width: 60%;
+  float: right;
+}
+.about-hero-text h6 {
+  font-size: 2rem;
+  color: #111111;
+  margin-bottom: 2rem;
+}
+.about-hero-text p,
+ul {
+  font-size: 1.2rem;
+  color: #111111;
+  margin-bottom: 2rem;
+}
+.about-hero-content ul li {
+  list-style: disc;
+  margin-left: 5rem;
+}
+.tool-techs {
+  display: flex;
+  justify-content: space-between;
+}
+.tool-techs h1 {
+  font-size: 5rem;
+  color: #111111;
+  font-weight: 500;
+  width: 100%;
+  margin-right: 10rem;
+}
+.tool-techs h1 span {
+  margin-left: 5rem;
+}
+
+.tool-techs-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  width: 100%;
+}
+.tool-techs-list p {
+  font-size: 1.3rem;
+  color: #111111;
+  margin: 1rem 4rem;
+}
+.tool-techs-list-items {
+  display: flex;
+  flex-direction: column;
+}
+.current-favorites {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-favorites h1 {
+  font-size: 5rem;
+  color: #111111;
+  font-weight: 500;
+  width: 100%;
+}
+.current-favorites h1 span {
+  margin-left: 5rem;
+}
+.current-favorites-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.current-favorites-list-items p {
+  font-size: 1.3rem;
+  color: #111111;
+  margin: 2rem 0rem;
+}
+@media (max-width: 1245px) {
+  .about-hero-content {
+    margin: 0 auto 50rem auto;
+  }
+
+  .about-hero-title {
+    font-size: 4rem;
+    color: #111111;
+    font-weight: 600;
+  }
+  .about-hero-text {
+    margin-top: 5rem;
+    width: 60%;
+    float: right;
+  }
+  .about-hero-text h6 {
+    font-size: 1.6rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-text p,
+  ul {
+    font-size: 1rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-content ul li {
+    list-style: disc;
+    margin-left: 5rem;
+  }
+  .tool-techs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tool-techs h1 {
+    font-size: 3rem;
+    color: #111111;
+    font-weight: 500;
+    width: 40%;
+  }
+  .tool-techs h1 span {
+    margin-left: 3rem;
+  }
+
+  .tool-techs-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    width: 100%;
+  }
+  .tool-techs-list p {
+    font-size: 1rem;
+    color: #111111;
+    margin: 2rem 0rem;
+  }
+  .tool-techs-list-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .current-favorites {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .current-favorites h1 {
+    font-size: 3rem;
+    color: #111111;
+    font-weight: 500;
+    width: 60%;
+  }
+  .current-favorites h1 span {
+    margin-left: 3rem;
+  }
+  .current-favorites-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .current-favorites-list-items p {
+    font-size: 1rem;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 790px) {
+  .about-hero-content {
+    margin: 0 auto 40rem auto;
+  }
+
+  .about-hero-title {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+  .about-hero-text {
+    margin-top: 3rem;
+    width: 80%;
+    float: right;
+  }
+  .about-hero-text h6 {
+    font-size: 1.2rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-text p,
+  ul {
+    font-size: 1rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-content ul li {
+    list-style: disc;
+    margin-left: 5rem;
+  }
+  .tool-techs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tool-techs h1 {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 500;
+    width: 100%;
+    margin-right: 0rem;
+  }
+  .tool-techs h1 span {
+    margin-left: 0rem;
+  }
+
+  .tool-techs-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    width: 100%;
+  }
+  .tool-techs-list p {
+    font-size: 1rem;
+    color: #111111;
+    margin: 1rem 4rem;
+  }
+  .tool-techs-list-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .current-favorites {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .current-favorites h1 {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 500;
+    width: 100%;
+  }
+  .current-favorites h1 span {
+    margin-left: 0rem;
+  }
+  .current-favorites-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .current-favorites-list-items p {
+    font-size: 1rem;
+    color: #111111;
+    margin: 2rem 0rem;
+  }
+}
+
+@media (max-width: 790px) {
+  .about-hero-content {
+    margin: 0 auto 40rem auto;
+  }
+
+  .about-hero-title {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+  .about-hero-text {
+    margin-top: 3rem;
+    width: 80%;
+    float: right;
+  }
+  .about-hero-text h6 {
+    font-size: 1.2rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-text p,
+  ul {
+    font-size: 1rem;
+    color: #111111;
+    margin-bottom: 2rem;
+  }
+  .about-hero-content ul li {
+    list-style: disc;
+    margin-left: 5rem;
+  }
+  .tool-techs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tool-techs h1 {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 500;
+    width: 100%;
+    margin-right: 0rem;
+  }
+  .tool-techs h1 span {
+    margin-left: 0rem;
+  }
+
+  .tool-techs-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    width: 100%;
+  }
+  .tool-techs-list p {
+    font-size: 1rem;
+    color: #111111;
+    margin: 1rem 4rem;
+  }
+  .tool-techs-list-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .current-favorites {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .current-favorites h1 {
+    font-size: 2rem;
+    color: #111111;
+    font-weight: 500;
+    width: 100%;
+  }
+  .current-favorites h1 span {
+    margin-left: 0rem;
+  }
+  .current-favorites-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .current-favorites-list-items p {
+    font-size: 1rem;
+    color: #111111;
+    margin: 2rem 0rem;
+  }
+}
